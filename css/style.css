@@ -1,0 +1,68 @@
+body{
+    background-color: lightgreen;
+}
+
+#heading h1{
+    display: block;
+    text-align: center;
+    font-weight: 900;
+    font-size: 55px;
+    margin: 15px;
+    color: blueviolet;
+}
+
+#image-section{
+    height: 230px;
+}
+
+#image-section img{
+    display: block;
+    margin: auto;
+}
+
+#guess-word{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: blue;
+}
+#guess-word .score{
+    color: blueviolet;
+}
+
+#keyboard .col-1{
+    border: 2px solid blueviolet;
+    margin: 5px;
+    text-align: center !important;
+    color: blue;
+    border-radius: 10px;
+}
+
+#keyboard h3{
+    font-size: 20px;
+}
+
+#keyboard .col-1.remove:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: blueviolet;
+}
+
+.lost{
+    color: darkred;
+    text-align: center;
+}
+
+#keyboard button{
+    display: block;
+    color: blueviolet;
+    margin: auto;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: lightpink;
+    border: 2px solid blueviolet;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+

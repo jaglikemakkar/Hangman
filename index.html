@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Hangman</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="random()">
+    <section id="heading">
+        <h1>Guess or die!</h1>
+    </section>
+
+    <section id="image-section">
+        <div class="img-wrapper">
+            <div class="img-wrapper-inner">
+                <img id="image" src="img/hangman0.png">
+            </div>
+        </div>
+    </section>
+
+    <section id="guess-word">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 word"><h3></h3></div>
+                <div class="col-6 score"><h3>Score</h3></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="keyboard">
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
